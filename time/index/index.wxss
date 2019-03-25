@@ -1,0 +1,14 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+#msg{
+  color: greenyellow;
+}
+.navigator-hover {
+  background: blue;
+}
+/** 自定义其他点击态样式类 **/
+.other-navigator-hover {
+  background: red;
+}

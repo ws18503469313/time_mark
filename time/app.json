@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "index/index", 
+    "pages/logs/logs",
+    "pages/compoent/map",
+    "pages/compoent/button"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "时间印记",
+    "navigationBarTextStyle":"black"
+  },
+  "debug": true
+}

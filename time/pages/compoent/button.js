@@ -28,21 +28,7 @@ const pageObject = {
     console.log(e.detail.errMsg)
     console.log(e.detail.userInfo)
     console.log(e.detail.rawData)
-    wx.login({
-      success(res) {
-        if (res.code) {
-          // 发起网络请求
-          wx.request({
-            url: 'http://123.206.14.25/wx/onLogin',
-            data: {
-              code: res.code
-            }
-          })
-        } else {
-          console.log('登录失败！' + res.errMsg)
-        }
-      }
-    })
+   
   }
 }
 

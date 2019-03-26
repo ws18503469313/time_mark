@@ -1,7 +1,7 @@
 <page>
   <view class='container'>
     <view class='userinfo'>
-        <image src='image/abc.jpg' background-size='cover'></image>
+        <image src='/image/abc.jpg' background-size='cover'></image>
         <image src='https://wx.qlogo.cn/mmopen/vi_32/Umc1dhc6l1NNbeeDssVwhKib1twbkia6xaeWFqudA2QGpGopBHGibrS8YXia3sLN5wfqQW6VxczmPOkxTSWDLJick0A/132'
         mode='center'
         lazy-lazy-load='true'></image>

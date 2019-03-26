@@ -11,5 +11,18 @@
     "navigationBarTitleText": "时间印记",
     "navigationBarTextStyle":"black"
   },
-  "debug": true
+  "debug": true,
+  "tabBar": {
+    "list": [{
+      "pagePath": "index/index",
+      "text": "首页",
+      "iconPath": "image/app.png",
+      "selectedIconPath": "image/app.png"
+    },{
+      "pagePath": "pages/compoent/button",
+      "text": "按钮",
+      "iconPath": "image/app.png",
+      "selectedIconPath": "image/app.png"
+    }]
+  }
 }

@@ -6,16 +6,17 @@ App({
         console.log(res)
         if (res.code) {
           console.log(res.code)
-          // 发起网络请求
+          // 发起网络请求s
           wx.request({
-            url: 'https://www.wssmjy.com/wx/onLogin',
+            url: 'http://127.0.0.1/wx/onLogin',
             data: {
               code: res.code,
-              username:'wangshuai',
-              password:'123'
+              username:'1',
+              password:'1'
             },
             success(e){
               console.log(e)
+
             }
           })
         } else {

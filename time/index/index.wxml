@@ -2,9 +2,7 @@
   <view class='container'>
     <view class='userinfo'>
         <image src='/image/abc.jpg' background-size='cover'></image>
-        <image src='https://wx.qlogo.cn/mmopen/vi_32/Umc1dhc6l1NNbeeDssVwhKib1twbkia6xaeWFqudA2QGpGopBHGibrS8YXia3sLN5wfqQW6VxczmPOkxTSWDLJick0A/132'
-        mode='center'
-        lazy-lazy-load='true'></image>
+        
         <text class='userinfo-username'>王帅 </text>
     </view>
     <view class='usermotto'>
@@ -19,5 +17,8 @@
 <view wx:for="{{array}}">微信for循环-{{item}}</view>
 <view bindtap="add">{{count}}</view>
 <button bindtap='sacn'>扫一扫</button>
+</view>
+<view>
+  <button hover-class="navigator-hover"><navigator url='/pages/our/ourTime' >我们</navigator></button>
 </view>
 </page>

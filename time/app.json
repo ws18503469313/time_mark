@@ -1,28 +1,38 @@
 {
-  "pages":[
-    "index/index", 
+  "pages": [
+    "index/index",
     "pages/logs/logs",
     "pages/compoent/map",
-    "pages/compoent/button"
+    "pages/compoent/button",
+    "pages/our/ourTime"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "时间印记",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "debug": true,
   "tabBar": {
-    "list": [{
-      "pagePath": "index/index",
-      "text": "首页",
-      "iconPath": "image/app.png",
-      "selectedIconPath": "image/app.png"
-    },{
-      "pagePath": "pages/compoent/button",
-      "text": "按钮",
-      "iconPath": "image/app.png",
-      "selectedIconPath": "image/app.png"
-    }]
-  }
+    "list": [
+      {
+        "pagePath": "index/index",
+        "text": "首页",
+        "iconPath": "image/app.png",
+        "selectedIconPath": "image/app.png"
+      },
+      {
+        "pagePath": "pages/compoent/button",
+        "text": "按钮",
+        "iconPath": "image/app.png",
+        "selectedIconPath": "image/app.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序位将获取你的地理位置"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
 }

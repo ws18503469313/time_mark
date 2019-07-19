@@ -6,7 +6,7 @@
   color: greenyellow;
 }
 .navigator-hover {
-  background: blue;
+  background: rgb(255, 0, 140);
 }
 /** 自定义其他点击态样式类 **/
 .other-navigator-hover {
